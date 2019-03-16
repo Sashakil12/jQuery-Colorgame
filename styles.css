@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+h1, p{
+    text-align: center;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
+.bgc{
+    height: 200px;
+    background-color:bisque;
+}
+.cube{
+    width:25%;
+    padding-bottom: 25%;
+    background-color: red;
+    float: left;
+    margin: 2%;
+    box-sizing: border-box;
+}
+#control{
+    background-color: brown;
+    height: 40px;
+}
+button{
+    background-color: transparent;
+    border: none;
+    font: inherit;
+    font-size: 30px;
+    line-height: 40px;
+    color: white;
+    outline: none;
+}
+#align{
+    display: flex;
+    justify-content: space-between;
+}
+.selected{
+    background-color: bisque;
+    color: brown;
+}
